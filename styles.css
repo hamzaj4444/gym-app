@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #6E763F;
+    background-color: #d30562;
 }
 
 /*------ HOME PAGE ------*/
@@ -23,42 +23,52 @@ body {
 }
 
 .mainDiv h1 {
-    font-family: 'Modak';
+    font-family: 'Lato';
     font-weight: 400;
     font-size: 48px;
-    color: #FEF6F0;
+    color: #5f0e1e;
 }
 
 .mainDiv .center-image {
     width: 372px;
     height: 357px;
-    border: 4px solid #151E08;
+    border: 4px solid #3e0226;
     border-radius: 25px;
-    background-color: #97A085;
+    background-color: #ff869e;
     margin-bottom: 24px;
-    box-shadow: 2px 2px 4px rgba(21, 30, 8, 0.6);
+    box-shadow: 2px 2px 4px rgba(48, 12, 35, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .mainDiv .center-image img {
-    margin-top: 10px;
-    width: 343px;
-    height: 343px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    mix-blend-mode: multiply; 
 }
 
+
 #start-btn {
-    font-family: 'Pixelify Sans';
+    font-family: 'Roboto';
     font-size: 24px;
-    color: #FEF6F0;
-    background-color: #97A085;
-    border: 4px solid #151E08;
+    color: #fef0fd;
+    background-color: #91102a;
+    border: 4px solid #1e081c;
     border-radius: 10px;
     padding: 8px 24px;
     box-shadow: 2px 2px 4px rgba(21, 30, 8, 0.6);
 }
 #start-btn:hover {
-    transform: scale(1.1) perspective(1px);
-    transition: 0.3 ease;
+    transform: scale(1.2) perspective(1px);
+    transition: 0.7 ease;
     cursor: pointer;
+
 }
 
 /*------ DASHBOARD ------*/
@@ -85,9 +95,9 @@ body {
     width: 30%;
     height: 100%;
     background-color: #FEF6F0;
-    border: 4px solid #CAC7B1;
+    border: 4px solid #91102a;
     border-radius: 25px;
-    box-shadow: 2px 2px 4px rgba(21, 30, 8, 0.6);
+    box-shadow: 2px 2px 4px rgba(148, 5, 5, 0.6);
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -96,21 +106,21 @@ body {
     gap: 12px;
 }
 #day {
-    font-family: 'Pixelify Sans';
+    font-family: 'Roboto';
     font-size: 20px;
     font-weight: 600;
 }
 #number {
-    font-family: 'Pixelify Sans';
+    font-family: 'Roboto';
     font-size: 32px;
     color: #FEF6F0;
-    background-color: #6E763F;
+    background-color: #91102a;
     padding: 8px 12px;
     border-radius: 50px;
 }
 #month {
-    font-family: 'Pixelify Sans';
-    font-size: 16px;
+    font-family: 'Roboto';
+    font-size: 24px;
 }
 
 .right-section {
@@ -123,7 +133,7 @@ body {
 .progression {
     height: 60%;
     background-color: #FEF6F0;
-    border: 4px solid #CAC7B1;
+    border: 4px solid #91102a;
     border-radius: 25px;
     box-shadow: 2px 2px 4px rgba(21, 30, 8, 0.6);
     text-align: center;
@@ -133,7 +143,7 @@ body {
     flex-direction: column;
 }
 .progression h3 {
-    font-family: 'Pixelify Sans';
+    font-family: 'Roboto';
     font-size: 20px;
     margin-bottom: 8px;
     font-weight: 600;
@@ -145,13 +155,13 @@ body {
     border-radius: 10px;
 }
 #progress-bar::-webkit-progress-bar {
-    background-color: #CAC7B1;
+    background-color: #dbdbdb;
     border-radius: 10px;
 }
 #progress-bar::-webkit-progress-value {
-    background-color: #6E763F;
+    background-color: #91102a;
     border-radius: 10px;
-    transition: width 0.5s ease-in-out;
+    transition: width 1s ease-in-out;
 }
 
 .add-task {
@@ -162,14 +172,14 @@ body {
 }
 .add-task input {
     outline: none;
-    border: none;
+    border: 4px solid #91102a;
     padding: 14px;
     border-radius: 50px;
 }
 .add-task button {
     font-size: 24px;
     color: #FEF6F0;
-    background-color: #151E08;
+    background-color: #91102a;
     padding: 10px 16px;
     outline: none;
     border: none;
@@ -185,7 +195,7 @@ body {
     width: 100%;
     height: 50%;
     background-color: #FEF6F0;
-    border: 4px solid #CAC7B1;
+    border: 4px solid #91102a;
     border-radius: 25px;
     box-shadow: 2px 2px 4px rgba(21, 30, 8, 0.6);
     margin-bottom: 24px;
@@ -197,16 +207,16 @@ body {
     margin-right: 16px;
 }
 .bottom-section p span {
-    font-family: 'Pixelify Sans';
+    font-family: 'Roboto';
     color: #151E08;
     cursor: pointer;
 }
 
 #finish-btn {
-    font-family: 'Pixelify Sans';
+    font-family: 'Roboto';
     font-size: 24px;
     color: #FEF6F0;
-    background-color: #97A085;
+    background-color: #91102a;
     border: 4px solid #151E08;
     border-radius: 10px;
     padding: 8px 24px;
@@ -231,10 +241,10 @@ body {
 }
 
 #final-title {
-    font-family: 'Modak';
+    font-family: 'lato';
     font-weight: 400;
     font-size: 48px;
-    color: #FEF6F0;
+    color: #5f0e1e;
 }
 
 .finalDiv .center-image {
@@ -245,7 +255,7 @@ body {
     height: 357px;
     border: 4px solid #151E08;
     border-radius: 25px;
-    background-color: #97A085;
+    background-color: #91102a;
     margin-bottom: 24px;
     box-shadow: 2px 2px 4px rgba(21, 30, 8, 0.6);
 }
@@ -258,16 +268,16 @@ body {
 }
 
 #conclusion {
-    font-family: 'Pixelify Sans';
+    font-family: 'Roboto';
     font-size: 24px;
     margin-bottom: 16px;
 }
 
 #restart-btn {
-    font-family: 'Pixelify Sans';
+    font-family: 'Roboto';
     font-size: 24px;
     color: #FEF6F0;
-    background-color: #97A085;
+    background-color: #91102a;
     border: 4px solid #151E08;
     border-radius: 10px;
     padding: 8px 24px;
@@ -281,7 +291,7 @@ body {
 
 .done {
     text-decoration: line-through; /* Crosses out text */
-    color: #97A085; /* Optional: Change color to indicate completion */
+    color: #91102a; /* Optional: Change color to indicate completion */
     transition: 0.2s ease-in-out; /* Smooth effect */
 }
 
