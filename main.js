@@ -21,7 +21,7 @@ function createWindow() {
     },
   });
 
-  win.removeMenu();
+  
   win.loadFile("index.html");
   //win.webContents.openDevTools();
 

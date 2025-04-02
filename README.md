@@ -1,8 +1,7 @@
-## GreenProductive
+## Gym Programme 
 
-![design image](https://github.com/user-attachments/assets/ff506f03-9aeb-4eec-a86e-374c3f80aa0a)
 
-Gym Programme is a one-week project I created to kickstart my productive coding journey.
+Gym Programme is a project I created to kickstart my productive coding journey.
 featuring custom-designed UI elements. This project not only helped me refresh my javaScript skills but also reinforced my understanding of fundamentals methods and data structures.
 ### It was build with...
 * HTML
@@ -11,9 +10,6 @@ featuring custom-designed UI elements. This project not only helped me refresh m
 * ElectronJS
 
 
-
-1. Clone the repository
-```git clone https://github.com/Btelgeuse/GreenProductive.git```
 
 ## Usage
 
@@ -24,6 +20,6 @@ the number of tasks you finished.
 Once you're done, click on the finish button to get your daily achievement score!
 
 
-[My Instagram](https://www.instagram.com/b.telgeuse/)
+[My Instagram](https://www.instagram.com/janati_hamza_/)
 
 

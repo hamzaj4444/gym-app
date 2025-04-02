@@ -24,17 +24,15 @@ let totalTasks = 0;
 
 const finishBtn = document.getElementById("finish-btn");
 finishBtn.addEventListener("click", () => {
-    console.log("Saving progress:", progressBarValue.value); // Debugging
+    console.log("Saving progress:", progressBarValue.value); 
     localStorage.setItem("finalProgress", progressBarValue.value);
     window.electronAPI.loadPage("finishDay.html");
 })
 
 for (let i = 1; i <= 7; i++) {
     let taskSpan = document.getElementById("text-task-" + i);
-
     if (taskSpan) {
         taskSpans.push(taskSpan);
-
         taskSpan.addEventListener("click", (event) => {
             event.target.classList.toggle("done")
             event.target.classList.toggle("checked")
