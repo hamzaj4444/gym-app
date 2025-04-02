@@ -2,7 +2,7 @@
 
 
 Gym Programme is a project I created to kickstart my productive coding journey.
-featuring custom-designed UI elements. This project not only helped me refresh my javaScript skills but also reinforced my understanding of fundamentals methods and data structures.
+featuring custom-designed UI elements. This project helped me refresh my javaScript skills and reinforced my understanding of fundamentals methods and data structures.
 ### It was build with...
 * HTML
 * CSS
